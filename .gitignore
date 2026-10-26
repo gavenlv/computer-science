@@ -1,0 +1,58 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物
+dist/
+dist-ssr/
+build/
+out/
+*.tgz
+*.local
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 测试与覆盖率
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# 编辑器与 IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.history/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.orig
+*.rej
+
+# 操作系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# 工具缓存
+.eslintcache
+.cache/
+.vite/
+.turbo/
+.trae/
+*.tsbuildinfo
+vite.config.ts.timestamp-*
+*.pid
